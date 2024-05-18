@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="s.notarangelo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-01 12:04:03 "/>
+        <attribute name="created" value="cy5ub3RhcmFuZ2VsbztJVEQtQ1pDNjA3OVhEODsyMDIyLTEwLTAxOyIxMTozNzo1MCAiOzM0Mzk="/>
+        <attribute name="edited" value="cy5ub3RhcmFuZ2VsbztJVEQtQ1pDNjA3OVhEODsyMDIyLTEwLTAxOyIxMjowNDowMyAiOzE7MzU0MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="c1, c2, c" type="Integer" array="False" size=""/>
+            <output expression="&quot;Inserisci un numero da 0 a 9: &quot;" newline="False"/>
+            <input variable="c1"/>
+            <output expression="&quot;Inserisci un numero da 0 a 9: &quot;" newline="False"/>
+            <input variable="c2"/>
+            <assign variable="c" expression="c1+c2"/>
+            <if expression="c&gt;=10">
+                <then>
+                    <output expression="&quot;1&quot;" newline="True"/>
+                    <output expression="c" newline="True"/>
+                </then>
+                <else>
+                    <output expression="0" newline="True"/>
+                    <output expression="c" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

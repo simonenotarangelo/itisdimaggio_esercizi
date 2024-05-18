@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="simon"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-12 04:18:45 "/>
+        <attribute name="created" value="c2ltb247UEMtREktU0lNT05FOzIwMjItMTAtMTI7IjA0OjAwOjU0ICI7MjU2NQ=="/>
+        <attribute name="edited" value="c2ltb247UEMtREktU0lNT05FOzIwMjItMTAtMTI7IjA0OjE4OjQ1ICI7MTsyNjgy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, y, z" type="Integer" array="False" size=""/>
+            <output expression="&quot;Inserire variabile X : &quot;" newline="False"/>
+            <input variable="x"/>
+            <output expression="&quot;Inserire variabile Y : &quot;" newline="False"/>
+            <input variable="y"/>
+            <output expression="&quot;Inserire variabile Z : &quot;" newline="False"/>
+            <input variable="z"/>
+            <if expression="x&gt;y and z&lt;y">
+                <then>
+                    <output expression="&quot;Y &#232; compreso tra X e Z&quot;" newline="False"/>
+                </then>
+                <else>
+                    <if expression="z&gt;y and x&lt;y">
+                        <then>
+                            <output expression="&quot;Y &#232; compreso tra X e Z&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Y non &#232; compreso tra X e Z&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

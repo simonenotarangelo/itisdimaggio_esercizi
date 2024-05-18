@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Aereo
+comment1.params=
+comment1.target=void\ get_info_aereo()
+comment2.params=pes\ vmaxx\ postii\ carburante
+comment2.target=void\ inizializza_parametri(float,\ float,\ int,\ float)
+comment3.params=
+comment3.target=void\ decolla()
+comment4.params=velocita
+comment4.target=void\ accellera(float)
+comment5.params=velocita
+comment5.target=void\ rallenta(float)
+comment6.params=
+comment6.target=void\ Atterra()
+comment7.params=
+comment7.target=void\ Rifornisci()
+comment8.params=velocita
+comment8.target=void\ check_carburante(float)
+numComments=9

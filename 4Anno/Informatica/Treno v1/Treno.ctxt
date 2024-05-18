@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Treno
+comment1.params=
+comment1.target=Treno()
+comment2.params=
+comment2.target=void\ stampa()
+comment3.params=
+comment3.target=void\ prenota()
+comment4.params=
+comment4.target=void\ annulla_prenotazione()
+comment5.params=
+comment5.target=void\ generazione()
+numComments=6

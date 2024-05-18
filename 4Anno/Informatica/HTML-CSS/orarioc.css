@@ -1,0 +1,79 @@
+
+#riga{
+    color:#444444;
+    text-decoration: none;
+    font-family:'Tahoma';
+    font-size:8pt;
+    font-weight: normal;
+    font-style: normal"
+}
+
+#english
+{
+    background-color: #E1E1FF;
+}
+
+#storia
+{
+    background-color:#FFDFCE;
+}
+
+#matematica
+{
+    background-color: #E9E1FF;
+}
+
+#lab_inf
+{
+    background-color: #D9FFEC;
+}
+
+#religione
+{
+    background-color: #FFD5FF;
+}
+
+#sistemi
+{
+    background-color: #FFD7D7;
+}
+
+#tlc
+{
+    background-color: #FFE8FF;
+}
+
+#lab_tpsit
+{
+    background-color: #BFFFBF;
+}
+
+#lab_tlc
+{
+    background-color: #DDFFDD;
+}
+
+#tpsit
+{
+    background-color: #FFFF95;
+}
+
+#italiano
+{
+    background-color: #FFF7B7;
+}
+
+#informatica
+{
+    background-color: #FFFFCA;
+}
+
+#palestra
+{
+    background-color: #C0E0E0;
+}
+
+#lab_sist
+{
+    background-color: #FFD5D5;
+}

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Veicolo_a_motore
+comment1.params=cilindrata\ assi\ marce\ posti\ alimentazione\ vmax\ carburante_max\ consumo_medio
+comment1.target=Veicolo_a_motore(int,\ int,\ int,\ int,\ java.lang.String,\ float,\ float,\ float)
+comment2.params=
+comment2.target=void\ accendi()
+comment3.params=
+comment3.target=void\ spegni()
+comment4.params=km
+comment4.target=void\ percorri(float)
+comment5.params=quant_marcia
+comment5.target=void\ aumenta_marcia(int)
+comment6.params=quant_marcia
+comment6.target=void\ scala_marcia(int)
+comment7.params=
+comment7.target=void\ display()
+comment8.params=rifornimento
+comment8.target=void\ rifornisci(float)
+numComments=9

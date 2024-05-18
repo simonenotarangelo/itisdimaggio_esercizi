@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="simon"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-06 05:41:51 "/>
+        <attribute name="created" value="c2ltb247UEMtREktU0lNT05FOzIwMjItMTAtMDY7IjA1OjI3OjM5ICI7MjU4MQ=="/>
+        <attribute name="edited" value="c2ltb247UEMtREktU0lNT05FOzIwMjItMTAtMDY7IjA1OjQxOjUxICI7MjsyNjgw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="c1, c2, somma, x" type="Integer" array="False" size=""/>
+            <output expression="&quot;Inserisci un numero binario da 0 a 1 : &quot;" newline="False"/>
+            <input variable="c1"/>
+            <output expression="&quot;Inserisci un numero binario da 0 a 1 : &quot;" newline="False"/>
+            <input variable="c2"/>
+            <assign variable="somma" expression="c1+c2"/>
+            <if expression="somma&gt;=2">
+                <then>
+                    <output expression="&quot;Il risultato &#232; 10&quot;" newline="False"/>
+                </then>
+                <else>
+                    <if expression="somma=1">
+                        <then>
+                            <output expression="&quot;Il risultato &#232; 1&quot;" newline="False"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Il risultato &#232; 0&quot;" newline="False"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

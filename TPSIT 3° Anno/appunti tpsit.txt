@@ -1,0 +1,14 @@
+numeri relativi con bit di segno
+1=negativo
+0=positivo
+
+1°bit=msb(most significative  bit)
+Ultimo beat=lsb(least significative  bit)
+
+corrado bohm
+giuseppe jacopini
+dopo il loro teorema(teorema bohm-jacopini) tutti i ptogrammatori usavano il loro metodo.
+
+Teorema:quale afferma che qualunque algoritmo può essere implementato in fase di programmazione
+(in diagramma di flusso, pseudocodice o codice sorgente) utilizzando tre sole strutture dette strutture di
+controllo: la sequenza, la selezione e l'iterazione

@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Carrozza
+comment1.params=
+comment1.target=Carrozza()
+comment2.params=p
+comment2.target=void\ book(int)
+comment3.params=p
+comment3.target=void\ delete(int)
+comment4.params=
+comment4.target=void\ display()
+comment5.params=
+comment5.target=void\ visualizza()
+comment6.params=prenotati
+comment6.target=boolean\ genera(int)
+numComments=7

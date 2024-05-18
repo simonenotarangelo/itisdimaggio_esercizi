@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Carrozza
+comment1.params=n_carrozza
+comment1.target=Carrozza(int)
+comment2.params=
+comment2.target=void\ stampaMatrice()
+comment3.params=riga\ colonna
+comment3.target=void\ prenotaPosto(int,\ int)
+comment4.params=riga\ colonna
+comment4.target=void\ cancellaPrenotazione(int,\ int)
+comment5.params=riga\ colonna
+comment5.target=boolean\ controllo(int,\ int)
+comment6.params=prenotati
+comment6.target=boolean\ genera(int)
+comment7.params=
+comment7.target=void\ disponibili()
+numComments=8

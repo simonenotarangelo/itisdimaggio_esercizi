@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Lista
+comment1.params=citta
+comment1.target=void\ push(java.lang.String)
+comment2.params=
+comment2.target=void\ get()
+comment3.params=
+comment3.target=void\ stampapenultimo()
+numComments=4

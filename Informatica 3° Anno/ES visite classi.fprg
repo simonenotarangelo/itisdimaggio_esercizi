@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="simon"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-07 05:40:54 "/>
+        <attribute name="created" value="c2ltb247UEMtREktU0lNT05FOzIwMjItMTAtMDc7IjA1OjA1OjM0ICI7MjU3Mw=="/>
+        <attribute name="edited" value="c2ltb247UEMtREktU0lNT05FOzIwMjItMTAtMDc7IjA1OjQwOjU0ICI7MjsyNjgz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <declare name="sez" type="String" array="False" size=""/>
+            <output expression="&quot;Inserisci la classe : &quot;" newline="True"/>
+            <input variable="x"/>
+            <output expression="&quot;Inserisci la sezione : &quot;" newline="True"/>
+            <input variable="sez"/>
+            <if expression="x==1">
+                <then>
+                    <output expression="&quot;La classe visiter&#224; il museo egizio di Torino&quot;" newline="False"/>
+                </then>
+                <else>
+                    <if expression="x==2">
+                        <then>
+                            <if expression="sez==&quot;A&quot;">
+                                <then>
+                                    <output expression="&quot;La classe visiter&#224; il duomo di Milano&quot;" newline="False"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;La classe visiter&#224; il Castello Sforzesco di Milano&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </then>
+                        <else>
+                            <if expression="x==3">
+                                <then>
+                                    <output expression="&quot;La classe visiter&#224; le Gallerie degli Uffizi di Firenze&quot;" newline="False"/>
+                                </then>
+                                <else>
+                                    <if expression="x==4">
+                                        <then>
+                                            <if expression="sez==&quot;B&quot;">
+                                                <then>
+                                                    <output expression="&quot;La classe visiter&#224; il Colosseo di Roma&quot;" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <if expression="sez==&quot;C&quot;">
+                                                        <then>
+                                                            <output expression="&quot;La classe visiter&#224; il Pantheon a Roma&quot;" newline="False"/>
+                                                        </then>
+                                                        <else>
+                                                            <output expression="&quot;La classe visiter&#224; i Musei Vaticani&quot;" newline="False"/>
+                                                        </else>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </then>
+                                        <else>
+                                            <if expression="x==5">
+                                                <then>
+                                                    <output expression="&quot;La classe visiter&#224; il Cern di Ginevra&quot;" newline="False"/>
+                                                </then>
+                                                <else>
+                                                    <if expression="x&gt;=6">
+                                                        <then>
+                                                            <output expression="&quot;La classe non esiste&quot;" newline="False"/>
+                                                        </then>
+                                                        <else/>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

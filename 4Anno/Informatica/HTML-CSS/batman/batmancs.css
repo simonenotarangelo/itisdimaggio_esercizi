@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bg {
+    background-image: url("sfondo.avif");
+  
+    height: 100%;
+  
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+p{
+    color: #fff8dc;
+    font-size: 23px;
+    padding: 10px;
+    text-align: center;
+    font-family: Gill Sans, sans-serif;
+}
+
+p1{
+    color: #daa520;
+    font-size: 23px;
+    padding: 10px;
+    text-align: center;
+    font-family: Gill Sans, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+h1{
+    color: #ffff00;
+    padding: 8px;
+    text-align: center;
+}
+
+h2{
+    font-size: xx-large;
+    color: #008000;
+    padding: 8px;
+    text-align: center;
+}
+
+.navigation-bar {
+    background-image: url(barra.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+   /* padding: 10px;*/
+    text-align: center;
+}

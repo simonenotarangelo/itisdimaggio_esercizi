@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    vertical-align: middle;
+}
+
+th, td {
+    padding: 10px;
+}
+
+caption {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.mathema {
+    font-weight: bold;
+}
+
+.nodecBlack {
+    font-size: 80%;
+}
+
+#inglese {
+    font-size: 80%;
+    background-color: #E9E1FF;
+}
+#matematica {
+    font-size: 80%;
+    background-color: #E9E1FF;
+}
+#labtpsit{
+    font-size: 80%;
+    background-color: #BFFFBF;
+}
+#sport{ 
+    font-size: 80%;
+    background-color: #C0E0E0;
+}
+#labsist{
+    font-size: 80%;
+    background-color: #FFD5D5;
+}
+#storia{
+    font-size: 80%;
+    background-color: #FFDFCE;
+}
+#italiano{
+    font-size: 80%;
+    background-color: #FFF7B7;
+}
+#religione{
+    font-size: 80%;
+    background-color: #FFD5FF;
+}
+#tpsit{
+    font-size: 80%;
+    background-color: #FFFF95;
+}
+#sistemi{
+    font-size: 80%;
+    background-color: #FFD7D7;
+}
+#info{
+    font-size: 80%;
+    background-color: #FFFFCA;
+}
+#labtlc{
+    font-size: 80%;
+    background-color: #DDFFDD;
+}
+#labinfo {
+    font-size: 80%;
+    background-color: #D9FFEC;
+}
+#tlc{
+    font-size: 80%;
+    background-color: #FFE8FF;
+}

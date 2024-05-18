@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="simon"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-19 05:09:40 "/>
+        <attribute name="created" value="c2ltb247UEMtREktU0lNT05FOzIwMjItMTAtMTk7IjAzOjQyOjAwICI7MjU2OA=="/>
+        <attribute name="edited" value="c2ltb247UEMtREktU0lNT05FOzIwMjItMTAtMTk7IjA1OjA5OjQwICI7MjsyNjg2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1, n2, somma, conta, i" type="Integer" array="False" size=""/>
+            <declare name="media" type="Real" array="False" size=""/>
+            <output expression="&quot;Inserire il primo numero : &quot;" newline="False"/>
+            <input variable="n1"/>
+            <output expression="&quot;Inserire il secondo numero : &quot;" newline="False"/>
+            <input variable="n2"/>
+            <assign variable="somma" expression="0"/>
+            <assign variable="conta" expression="0"/>
+            <if expression="n1&gt;n2">
+                <then>
+                    <for variable="i" start="n2" end="n1" direction="inc" step="1">
+                        <output expression="i" newline="False"/>
+                        <output expression="&quot;.  &quot;" newline="False"/>
+                        <assign variable="somma" expression="somma+i"/>
+                        <assign variable="conta" expression="conta+1"/>
+                    </for>
+                    <output expression="&quot;Multipli di 3: &quot;" newline="False"/>
+                    <for variable="i" start="n2" end="n1" direction="inc" step="1">
+                        <if expression="i%3=0">
+                            <then>
+                                <output expression="i" newline="False"/>
+                                <output expression="&quot;.  &quot;" newline="False"/>
+                            </then>
+                            <else/>
+                        </if>
+                    </for>
+                </then>
+                <else>
+                    <output expression="&quot;Intervallo : &quot;" newline="False"/>
+                    <for variable="i" start="n1" end="n2" direction="inc" step="1">
+                        <output expression="i" newline="False"/>
+                        <output expression="&quot;.  &quot;" newline="False"/>
+                        <assign variable="somma" expression="somma+i"/>
+                        <assign variable="conta" expression="conta+1"/>
+                    </for>
+                    <output expression="&quot;Multipli di 3: &quot;" newline="False"/>
+                    <for variable="i" start="n1" end="n2" direction="inc" step="1">
+                        <if expression="i%3=0">
+                            <then>
+                                <output expression="i" newline="False"/>
+                                <output expression="&quot;.  &quot;" newline="False"/>
+                            </then>
+                            <else/>
+                        </if>
+                    </for>
+                </else>
+            </if>
+            <assign variable="media" expression="somma/conta"/>
+            <output expression="&quot;Somma: &quot;" newline="False"/>
+            <output expression="somma" newline="False"/>
+            <output expression="&quot;,  &quot;" newline="False"/>
+            <output expression="&quot;Media: &quot;" newline="False"/>
+            <output expression="media" newline="False"/>
+        </body>
+    </function>
+</flowgorithm>
